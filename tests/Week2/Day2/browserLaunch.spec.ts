@@ -1,5 +1,5 @@
 
-const { test, expect, chromium, webkit } = require('@playwright/test');
+import { test, expect, chromium, webkit } from '@playwright/test';
 
 test('RedBus in Edge and Flipkart in WebKit', async () => {
 
